@@ -1,0 +1,53 @@
+/* styles.css */
+
+/* Add general styles */
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 4px;
+    background-color: darkgray;
+    
+  }
+  
+  /* Style the input and button */
+  input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+
+  .add-button{
+    background-color: aqua;
+    color: black;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the todo items */
+
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: lemonchiffon;
+  }
+  
+  .todo-title {
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  
